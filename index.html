@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>خالد الجوفي | مطور ويب</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+            text-align: center;
+        }
+
+        header {
+            background: #0d6efd;
+            color: white;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #e9f2ff;
+            padding: 12px 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #0d6efd;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 25px;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>خالد الجوفي 👋</h1>
+        <p>مطور Web & Laravel</p>
+        <p>أتعلم، أبني، وأطور نفسي كل يوم.</p>
+    </header>
+
+    <section>
+        <h2>من أنا؟</h2>
+
+        <p>
+            أنا خالد، مهتم بتطوير تطبيقات الويب
+            وقواعد البيانات والبرمجة.
+        </p>
+    </section>
+
+    <section>
+        <h2>مهاراتي</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">PHP</div>
+            <div class="skill">Laravel</div>
+            <div class="skill">MySQL</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>تواصل معي</h2>
+
+        <button onclick="showMessage()">
+            اضغط هنا
+        </button>
+    </section>
+
+    <footer>
+        © 2026 خالد الجوفي
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("أهلاً بك في موقعي! 🚀");
+        }
+    </script>
+
+</body>
+</html>
